@@ -197,6 +197,12 @@ section共通クラス
     text-align: center;
     margin-bottom: 40px;
 
+    // font-size: 24px;
+    // font-weight: 700;
+    // color: #333333;
+    background: linear-gradient(transparent 50%, #DCEE39 0);
+    display: inline-block;
+
     @include mq('sp') {
         font-size: 24px;
         font-weight: bold;
