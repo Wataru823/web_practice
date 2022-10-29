@@ -178,17 +178,19 @@ section共通クラス
 }
 
 .section-title {
-  font-size: 32px;
-  font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.title-marker {
+  font-size: 32px;
+  font-weight: bold;
   background: linear-gradient(transparent 50%, #DCEE39 0);
   display: inline-block;
 }
 @media screen and (max-width: 767px) {
-  .section-title {
+  .title-marker {
     font-size: 24px;
-    font-weight: bold;
   }
 }
 
